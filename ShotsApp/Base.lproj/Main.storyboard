@@ -14,14 +14,137 @@
                         <viewControllerLayoutGuide type="bottom" id="JOc-Bc-5yN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oMG-GJ-wdK">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="MainScreen-Clean Copy" translatesAutoresizingMaskIntoConstraints="NO" id="8xB-Ul-PX6">
+                                <rect key="frame" x="0.0" y="0.0" width="376" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CL5-WF-W8w">
+                                <rect key="frame" x="292" y="35" width="70" height="70"/>
+                                <connections>
+                                    <segue destination="mnL-Ls-IZm" kind="presentation" modalTransitionStyle="crossDissolve" id="urJ-1g-cBf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2v-ph-MX6">
+                                <rect key="frame" x="184" y="421" width="166" height="71"/>
+                                <connections>
+                                    <segue destination="TIA-2L-PzD" kind="presentation" modalTransitionStyle="crossDissolve" id="ZOk-Sa-fov"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvW-EG-fG3">
+                                <rect key="frame" x="24" y="177" width="329" height="244"/>
+                                <connections>
+                                    <segue destination="Xt1-9E-GFV" kind="presentation" modalTransitionStyle="crossDissolve" id="RSt-Dq-7XM"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bvk-hy-tgf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="278" y="358"/>
+            <point key="canvasLocation" x="277.5" y="357.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aAJ-XN-IG4">
+            <objects>
+                <viewController id="Xt1-9E-GFV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CYo-NC-kmW"/>
+                        <viewControllerLayoutGuide type="bottom" id="AhA-R5-1cg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SK2-7Q-ylV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="SecondScreen Copy" translatesAutoresizingMaskIntoConstraints="NO" id="hai-aC-rew">
+                                <rect key="frame" x="-1" y="0.0" width="376" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhN-Jd-t2q">
+                                <rect key="frame" x="12" y="11" width="70" height="70"/>
+                                <connections>
+                                    <segue destination="ix4-qD-EpC" kind="presentation" modalTransitionStyle="crossDissolve" id="o92-zB-Xd5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WDm-KK-sR0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="761.5" y="1209.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k5A-gz-7hO">
+            <objects>
+                <viewController id="TIA-2L-PzD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iTK-CD-aLy"/>
+                        <viewControllerLayoutGuide type="bottom" id="52e-4U-Ocr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="w7y-DM-SJj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="MainScreen-Share Copy" translatesAutoresizingMaskIntoConstraints="NO" id="eZP-yX-ytY">
+                                <rect key="frame" x="0.0" y="0.0" width="376" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6q6-a2-PwM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="432"/>
+                                <connections>
+                                    <segue destination="ix4-qD-EpC" kind="presentation" modalTransitionStyle="crossDissolve" id="S2I-eR-S3i"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gwE-mt-t1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="925.5" y="357.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="o0M-D4-V9h">
+            <objects>
+                <viewController id="mnL-Ls-IZm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Exi-CM-AXC"/>
+                        <viewControllerLayoutGuide type="bottom" id="lgw-xd-Q7h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LaD-il-ucs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="MainScreen-Popover Copy" translatesAutoresizingMaskIntoConstraints="NO" id="j2v-VD-esy">
+                                <rect key="frame" x="0.0" y="0.0" width="376" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHr-4H-Mt9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <segue destination="ix4-qD-EpC" kind="presentation" modalTransitionStyle="crossDissolve" id="BQ4-XJ-1aj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pel-Pc-bgN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="761.5" y="-488.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MainScreen-Clean Copy" width="376" height="667"/>
+        <image name="MainScreen-Popover Copy" width="376" height="667"/>
+        <image name="MainScreen-Share Copy" width="376" height="667"/>
+        <image name="SecondScreen Copy" width="376" height="667"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="o92-zB-Xd5"/>
+    </inferredMetricsTieBreakers>
 </document>
